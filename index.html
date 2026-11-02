@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!-- ============================================================
+     PAGE TITLE + SHARE PREVIEW (what shows in Google, texts, social)
+     ============================================================ -->
+<title>MNTL | 8-Week Mental Athleticism Training with Keri Croft</title>
+<meta name="description" content="Train the mind. Execute in real life. MNTL is 8 weeks of live Mental Athleticism training with Keri Croft. Founding cohort starts Jan 11, 2027. 25 seats.">
+<meta property="og:title" content="MNTL | Train the mind. Execute in real life.">
+<meta property="og:description" content="8 weeks of live Mental Athleticism training with Keri Croft. Founding cohort starts Jan 11, 2027. 25 seats.">
+<meta property="og:image" content="https://mntl.kericroft.com/images/share.png">
+<meta property="og:url" content="https://mntl.kericroft.com/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171E19'/%3E%3Ctext x='32' y='45' font-family='Arial Black,Arial' font-weight='900' font-size='36' text-anchor='middle' fill='%23E43D12'%3EM%3C/text%3E%3C/svg%3E">
+
+<!-- ANALYTICS: paste your Google Analytics / Meta Pixel code on the line below -->
+
+<script>
+/* ============================================================
+   SETTINGS — the things you'll change most. Edit ONLY between the quotes.
+   ============================================================
+
+   MODE controls what the page sells. Use one of these words:
+     "waitlist" = OG list signup (Nov 16 – Nov 26, 7 PM ET)
+     "bf"       = Black Friday $497 (Nov 26, 7 PM ET – Nov 30, 11:59 PM ET)
+     "regular"  = $697 (Dec 1 – Jan 8)
+     "closed"   = sold out / enrollment closed (next-cohort waitlist)
+*/
+var MNTL = {
+  mode: "waitlist",
+
+  links: {
+    ogList:      "https://PASTE-FLODESK-OG-LIST-FORM-LINK",
+    stripe497:   "https://PASTE-STRIPE-LINK-497",
+    stripe259x2: "https://PASTE-STRIPE-LINK-2x259",
+    stripe697:   "https://PASTE-STRIPE-LINK-697",
+    stripe359x2: "https://PASTE-STRIPE-LINK-2x359",
+    nextCohort:  "https://PASTE-FLODESK-NEXT-COHORT-FORM-LINK"
+  }
+};
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&family=BioRhyme:wght@400;700&family=Yellowtail&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================================
+   BRAND COLORS — change a code here and it changes everywhere.
+   (MNTL/BYLD brand kit)
+   ============================================================ */
+:root{
+  --dark:      #171E19;  /* near-black backgrounds + dark text   */
+  --light:     #EBE9E1;  /* ivory backgrounds + light text      */
+  --button:    #E43D12;  /* vermilion: buttons, big red lines   */
+  --highlight: #F8A5D8;  /* pink: highlighted words             */
+  --sage:      #B9C07E;  /* sage: pillar boxes, small headings  */
+  --graysage:  #B7C6C2;  /* gray sage: pillar boxes, borders    */
+}
+
+/* ============================================================
+   FONTS — headline / subheadline / body / script
+   (Reborn + Vintage Goods are licensed; add them here once you have web licenses)
+   ============================================================ */
+:root{
+  --font-headline: Montserrat, Arial, sans-serif;
+  --font-sub:      BioRhyme, Georgia, serif;
+  --font-body:     Montserrat, Arial, sans-serif;
+  --font-script:   Yellowtail, "Brush Script MT", cursive;
+}
+
+/* ---------- layout (no need to edit below this line) ---------- */
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--light);color:var(--dark);font:500 17px/1.65 var(--font-body);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+h1,h2,.disp{font-family:var(--font-headline);font-weight:900;text-transform:uppercase;letter-spacing:-.015em;line-height:.92}
+h3{font-family:var(--font-sub);font-weight:700;line-height:1.15}
+.script{font-family:var(--font-script);font-weight:400;text-transform:none;letter-spacing:0}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+section{padding:96px 0}
+.dark{background:var(--dark);color:var(--light)}
+.eyebrow{font:700 12px/1.4 var(--font-body);letter-spacing:.22em;text-transform:uppercase;color:var(--button)}
+.dark .eyebrow,.hero .eyebrow{color:var(--highlight)}
+.hl{color:var(--highlight)}
+.btn{display:inline-block;background:var(--button);color:var(--light);font:800 14px/1 var(--font-body);letter-spacing:.12em;text-transform:uppercase;padding:20px 30px;border-radius:999px;text-decoration:none;min-height:52px;transition:background .2s,color .2s}
+.btn:hover,.btn:focus-visible{background:var(--highlight);color:var(--dark)}
+.note{font-size:13px;opacity:.8;margin-top:14px}
+.bar{position:sticky;top:0;z-index:10;background:var(--dark);color:var(--light);display:flex;justify-content:space-between;align-items:center;padding:12px 24px}
+.bar .disp{font-size:24px;letter-spacing:.08em}.bar .btn{padding:12px 18px;font-size:12px;min-height:0}
+.hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:120px 0 88px;color:var(--light);background-color:var(--dark);background-size:cover;background-position:center}
+/* HERO PHOTO: put your photo in the images folder named hero.jpg */
+.hero.top{background-image:linear-gradient(180deg,rgba(23,30,25,.45),rgba(23,30,25,.95)),url("images/hero.jpg"),radial-gradient(circle at 80% 20%,rgba(228,61,18,.25),transparent 45%)}
+/* CLOSING PHOTO: images/closing.jpg */
+.hero.end{min-height:70vh;background-image:linear-gradient(180deg,rgba(23,30,25,.55),rgba(23,30,25,.95)),url("images/closing.jpg"),radial-gradient(circle at 20% 30%,rgba(228,61,18,.22),transparent 45%)}
+.hero h1{font-size:clamp(50px,9.5vw,128px);margin:18px 0 22px;max-width:11ch}
+.hero .sub{font-family:var(--font-sub);font-size:19px;max-width:54ch;margin-bottom:30px;opacity:.95}
+.voice{font-family:var(--font-sub);font-size:22px;margin:22px 0;padding-left:18px;border-left:4px solid var(--highlight)}
+.big{font-size:clamp(40px,6vw,76px);margin:36px 0;color:var(--button)}
+.prose{max-width:62ch}.prose p{margin-bottom:18px}
+blockquote{font-family:var(--font-headline);font-weight:900;text-transform:uppercase;font-size:clamp(26px,3.8vw,42px);line-height:1.1;margin:28px 0 48px;max-width:26ch}
+.h2{font-size:clamp(40px,6vw,72px);margin:14px 0 18px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(2,1fr)}
+.tile{background:var(--sage);color:var(--dark);padding:32px;border-radius:18px}.tile h3{font-size:26px;margin-bottom:10px;color:var(--dark)}
+.tile:nth-child(2),.tile:nth-child(3){background:var(--graysage)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:40px}
+.steps .n{font-family:var(--font-headline);font-weight:900;color:var(--button);font-size:48px;line-height:1}.steps h3{font-size:21px;margin:10px 0 8px}
+.ff{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:24px 0 40px}
+.ff div{border:2px solid var(--graysage);border-radius:18px;padding:20px}.ff b{font-family:var(--font-headline);font-weight:900;font-size:42px;color:var(--highlight);display:block;line-height:1.1}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.dark h3{color:var(--sage)}
+.not{background:var(--dark);color:var(--light);border-radius:18px;padding:24px;margin-top:24px}.not b{color:var(--highlight)}
+.og{background:var(--button);color:var(--light);text-align:center}.og h2{font-size:clamp(56px,9vw,124px);margin:16px 0}.og .eyebrow{color:var(--light)}
+/* ABOUT PHOTO: images/keri.jpg */
+.photo{aspect-ratio:4/5;border-radius:18px;background:var(--dark) linear-gradient(160deg,#3b453c,#171E19);background-image:url("images/keri.jpg"),linear-gradient(160deg,#3b453c,#171E19);background-size:cover;background-position:center}
+.pull{font-family:var(--font-sub);font-size:22px;color:var(--button);margin:26px 0}
+.card{background:var(--light);color:var(--dark);max-width:620px;margin:40px auto 0;padding:44px;border-radius:24px}
+.dark .card h3{color:var(--dark)}.dark .card .eyebrow{color:var(--button)}
+.card ul{margin:18px 0 28px 20px}.card li{margin-bottom:6px}.card li::marker{color:var(--button)}
+.price{font-family:var(--font-headline);font-weight:900;font-size:88px;line-height:1}.strike{text-decoration:line-through;opacity:.5;font-size:20px;margin-left:10px}
+.card .btn{display:block;text-align:center}
+.plan{display:block;text-align:center;margin-top:12px;color:var(--dark)}
+details{border-bottom:1px solid rgba(23,30,25,.2);padding:18px 0}summary{font-weight:700;cursor:pointer}summary::marker{color:var(--button)}details p{margin-top:10px;max-width:70ch}
+footer{background:var(--dark);color:var(--light);padding:40px 0;font-size:12px}footer a{color:var(--light)}
+.mbar{display:none}
+
+/* ---------- MODE switching (controlled by the SETTINGS block) ---------- */
+.m-waitlist,.m-bf,.m-regular,.m-closed{display:none}
+body[data-mode="waitlist"] .m-waitlist,body[data-mode="bf"] .m-bf,body[data-mode="regular"] .m-regular,body[data-mode="closed"] .m-closed{display:revert}
+body[data-mode="bf"] a.plan.m-bf,body[data-mode="regular"] a.plan.m-regular{display:block}
+body[data-mode="waitlist"] span.m-waitlist,body[data-mode="bf"] span.m-bf,body[data-mode="regular"] span.m-regular,body[data-mode="closed"] span.m-closed{display:inline}
+
+@media(max-width:760px){
+  section{padding:64px 0}.grid,.cols,.steps{grid-template-columns:1fr}.ff{grid-template-columns:1fr 1fr}
+  .hero{min-height:86vh;padding:96px 0 56px}.btn{font-size:13px;letter-spacing:.08em;padding:18px 16px}.hero .sub{font-size:16px}
+  .hero .btn{display:block;text-align:center;white-space:nowrap;font-size:12px}
+  .card{padding:28px 20px}.price{font-size:66px}
+  .mbar{display:block;position:fixed;bottom:0;left:0;right:0;padding:10px 16px;background:var(--dark);z-index:20}.mbar .btn{display:block;text-align:center}
+  body{padding-bottom:76px}.bar .btn{display:none}
+}
+</style>
+</head>
+
+<body data-mode="waitlist">
+
+<div class="bar"><span class="disp">MNTL</span><a class="btn" href="#offer"><span class="m-waitlist">Join the OG list</span><span class="m-bf m-regular">Claim my seat</span><span class="m-closed">Next cohort</span></a></div>
+
+<!-- ============================================================
+     HERO — edit the headline + tagline here
+     ============================================================ -->
+<header class="hero top">
+<div class="wrap">
+  <div class="eyebrow">MNTL · 8-week Mental Athleticism™ training · Founding cohort</div>
+  <h1>Train the mind. <span class="hl">Execute in real life.</span></h1>
+
+  <p class="sub m-bf m-regular">MNTL is eight weeks of live training for people who are done thinking about it and ready to build the mental muscles to actually do it. Not a course. Not a content dump. Reps.</p>
+  <p class="sub m-waitlist">Eight weeks of live Mental Athleticism™ training with me. Twenty-five founding seats. The OG list gets first dibs on Thanksgiving night, before anyone else can buy.</p>
+  <p class="sub m-closed">The founding cohort is full. Get on the list for the next MNTL cohort and you'll hear first when doors open.</p>
+
+  <a class="btn" data-link="primary" href="#offer">
+    <span class="m-waitlist">Get on the OG list</span>
+    <span class="m-bf">Claim my founding seat — $497</span>
+    <span class="m-regular">Claim my seat — $697</span>
+    <span class="m-closed">Join the next-cohort list</span>
+  </a>
+  <p class="note m-waitlist">Doors open to the OG list Thu, Nov 26 at 7 PM ET. Everyone else gets in Friday.</p>
+  <p class="note m-bf">25 seats · Starts Mon, Jan 11, 2027 · Founding price ends Mon, Nov 30 at 11:59 PM ET</p>
+  <p class="note m-regular">25 seats · Starts Mon, Jan 11, 2027 · Enrollment closes Fri, Jan 8</p>
+</div>
+</header>
+
+<!-- ============================================================
+     THE MOMENT
+     ============================================================ -->
+<section><div class="wrap prose">
+  <div class="eyebrow">The moment</div>
+  <p style="margin-top:18px">It's 5 AM. It's cold as hell in my garage, and I'm still in bed listening to the voice.</p>
+  <p class="voice">Stay here. It's warm. Nobody would know.</p>
+  <p class="voice">You'd know.</p>
+  <p>That conversation happens to all of us, every single day. Before the hard conversation, before you raise your prices, before you say the thing out loud in the meeting, before you close the laptop and actually go be present with your kids.</p>
+  <p class="disp big">You're always doing reps.</p>
+  <p>Every time you push through, that's a rep. Every time you negotiate yourself out of it, that's a rep too. The only question is which ones you're stacking. MNTL is where we stack the right ones. On purpose. Together.</p>
+</div></section>
+
+<!-- ============================================================
+     WHAT IS MENTAL ATHLETICISM
+     ============================================================ -->
+<section class="dark"><div class="wrap">
+  <div class="eyebrow">What is Mental Athleticism™</div>
+  <blockquote>Anchor to an <span class="hl">audacious vision</span>, relentlessly execute small daily reps, and consistently pursue internal command and environmental design.</blockquote>
+  <div class="grid">
+    <div class="tile"><h3>Anchored Vision</h3><p>Know where you're going, and keep coming back to it when life gets loud.</p></div>
+    <div class="tile"><h3>Relentless Execution</h3><p>Turn the big vision into small, doable daily actions. Then do them again.</p></div>
+    <div class="tile"><h3>Internal Command</h3><p>Notice the thoughts and feelings driving the bus, and take the wheel back.</p></div>
+    <div class="tile"><h3>Environmental Design</h3><p>Build the people, spaces and routines that make the right move the easy move.</p></div>
+  </div>
+</div></section>
+
+<!-- ============================================================
+     HOW MNTL WORKS
+     ============================================================ -->
+<section><div class="wrap">
+  <div class="eyebrow">How MNTL works</div>
+  <h2 class="h2">Built for full lives.<br>Not free time.</h2>
+  <div class="steps">
+    <div><div class="n">01</div><h3>One rep a week</h3><p>Every Monday, one specific, real-life rep. Small, observable, doable.</p></div>
+    <div><div class="n">02</div><h3>The locker room</h3><p>Live every Tuesday, 12–1 PM ET. Every call recorded.</p></div>
+    <div><div class="n">03</div><h3>Between sessions</h3><p>Check-ins, prompts and accountability in our private community on Circle.</p></div>
+    <div><div class="n">04</div><h3>~2 hours a week</h3><p>One live hour plus 10–15 minutes a day on your rep.</p></div>
+  </div>
+</div></section>
+
+<!-- ============================================================
+     WHAT YOU'LL TRAIN
+     ============================================================ -->
+<section class="dark"><div class="wrap">
+  <div class="eyebrow">What you'll train</div>
+  <h2 class="h2">The Focus Formula</h2>
+  <div class="ff"><div><b>MF</b>Me First</div><div><b>IIC</b>Invest in Inner Circle</div><div><b>BYE</b>Build Your Empire</div><div><b>ITA</b>Improve the Atmosphere</div></div>
+  <div class="cols">
+    <div><h3 style="font-size:28px">The DOT System</h3><p>Small daily actions across the mental, spiritual, relational, physical and organizational parts of your life. The right move for that day.</p></div>
+    <div><h3 style="font-size:28px">Your mental muscles</h3><p>The specific muscles your life is asking you to build right now, like bravery, focus and discernment. We find yours, then we train them.</p></div>
+  </div>
+  <p class="disp" style="font-size:clamp(24px,3.4vw,38px);margin-top:48px;max-width:28ch">Self-trust is what shows up after you keep your word to yourself <span class="hl">enough times in a row.</span></p>
+</div></section>
+
+<!-- ============================================================
+     WHO THIS IS FOR
+     ============================================================ -->
+<section><div class="wrap cols">
+  <div><div class="eyebrow">Who this is for</div>
+  <h2 class="h2" style="font-size:clamp(40px,6vw,64px)">Anyone who wants to be more mentally athletic.</h2></div>
+  <div class="prose">
+    <p><b>The founder</b> who knows exactly what she needs to do and keeps finding very reasonable reasons not to do it.</p>
+    <p><b>The corporate leader</b> crushing it on paper and running on fumes in real life.</p>
+    <p><b>The stay-at-home parent</b> building a whole human (or three) who wants to build herself back in, too.</p>
+    <p><b>Anyone</b> tired of waiting to feel ready.</p>
+    <div class="not"><b>NOT for you if</b> you want to binge videos and never do the work, you're looking for someone to tell you you're perfect, or you need clinical support. MNTL is training, not therapy.</div>
+  </div>
+</div></section>
+
+<!-- ============================================================
+     ETERNAL OGs
+     ============================================================ -->
+<section class="og"><div class="wrap">
+  <div class="eyebrow">The eternal OGs</div>
+  <h2>The first 25.</h2>
+  <p style="max-width:56ch;margin:0 auto">I take people who believe before there's proof very, very seriously. Founding members are the eternal OGs of MNTL: when I build something new, you hear about it first and get in first. Forever. And you get the lowest price this program will ever see.</p>
+</div></section>
+
+<!-- ============================================================
+     ABOUT KERI
+     ============================================================ -->
+<section><div class="wrap cols">
+  <div class="photo" role="img" aria-label="Keri Croft"></div>
+  <div class="prose">
+    <div class="eyebrow">About</div>
+    <h2 class="h2" style="font-size:clamp(40px,6vw,64px)">Hi, I'm <span class="script" style="color:var(--button)">Keri.</span></h2>
+    <p>I spent fifteen years in corporate America and ended as an Enterprise Director of Sales at AT&amp;T. Then I co-founded System of Strength, grew it to seven figures in five years, and sold my interest in 2024. In January 2023 I launched The Keri Croft Show, and today I also run BYLD, a community for women building businesses.</p>
+    <!-- KERI TO APPROVE this sentence before launch -->
+    <p>Along the way I went through more than a decade of infertility and the loss of three children before our family was complete.</p>
+    <p>After I sold my interest in System of Strength, I asked one question: what actually kept me moving through all of it? The answer became Mental Athleticism™. MNTL is me handing you that system and coaching you through it live.</p>
+    <p class="pull">You don't have to burn it all down. You just have to be brave enough to shift.</p>
+    <p><b>I'm not here to hype you up. I'm here to train you.</b></p>
+  </div>
+</div></section>
+
+<!-- ============================================================
+     THE OFFER — prices + guarantee
+     ============================================================ -->
+<section class="dark" id="offer"><div class="wrap">
+  <div class="eyebrow" style="text-align:center">The offer</div>
+  <div class="card">
+    <div class="eyebrow">MNTL · Founding cohort</div>
+    <h3 style="font-size:34px;margin:8px 0 4px">Starts Mon, Jan 11, 2027</h3>
+    <p>8 weeks · Live with Keri</p>
+    <ul>
+      <li>8 weeks of live training with me</li>
+      <li>Weekly locker room, Tuesdays 12–1 PM ET (all recorded)</li>
+      <li>One targeted rep every week</li>
+      <li>The Focus Formula, the DOT System and your mental muscle plan</li>
+      <li>Private MNTL community on Circle</li>
+      <li>Eternal OG status: first access to everything next, forever</li>
+    </ul>
+
+    <div class="m-waitlist">
+      <div class="eyebrow">Black Friday founding price</div>
+      <div><span class="price">$497</span><span class="strike">$697</span></div>
+      <p style="margin:6px 0 22px">Opens to the OG list Thu, Nov 26 at 7 PM ET. Everyone else Fri, Nov 27.</p>
+    </div>
+    <div class="m-bf">
+      <div class="eyebrow">Black Friday founding price</div>
+      <div><span class="price">$497</span><span class="strike">$697</span></div>
+      <p style="margin:6px 0 22px">or 2 payments of $259 · through Mon, Nov 30, 11:59 PM ET</p>
+    </div>
+    <div class="m-regular">
+      <div class="eyebrow">Founding cohort</div>
+      <div><span class="price">$697</span></div>
+      <p style="margin:6px 0 22px">or 2 payments of $359 · enrollment closes Fri, Jan 8, 2027</p>
+    </div>
+    <div class="m-closed">
+      <div class="eyebrow">Founding cohort</div>
+      <div><span class="price" style="font-size:56px">Full.</span></div>
+      <p style="margin:6px 0 22px">The next cohort opens later in 2027. Get on the list to hear first.</p>
+    </div>
+
+    <a class="btn" data-link="primary" href="#">
+      <span class="m-waitlist">Get on the OG list</span>
+      <span class="m-bf">Claim my founding seat — $497</span>
+      <span class="m-regular">Claim my seat — $697</span>
+      <span class="m-closed">Join the next-cohort list</span>
+    </a>
+    <a class="plan m-bf" data-link="plan" href="#">Or pay in 2 installments of $259</a>
+    <a class="plan m-regular" data-link="plan" href="#">Or pay in 2 installments of $359</a>
+
+    <p class="note m-waitlist m-bf m-regular" style="text-align:center">25 seats total. When they're gone, they're gone.</p>
+    <p class="note m-bf m-regular"><b>14-day guarantee:</b> Show up to the first two locker rooms (live or replay), do the reps, and if MNTL isn't for you, email me by Mon, Jan 25, 2027 for a full refund.</p>
+  </div>
+</div></section>
+
+<!-- ============================================================
+     FAQ
+     ============================================================ -->
+<section><div class="wrap" style="max-width:820px">
+  <div class="eyebrow">FAQ</div>
+  <h2 class="h2" style="font-size:clamp(40px,6vw,64px)">Questions</h2>
+  <details open><summary>When does it start, and when are the calls?</summary><p>We kick off Monday, January 11, 2027. The live locker room is every Tuesday from 12:00–1:00 PM ET, starting January 12. Eight weeks, wrapping the first week of March.</p></details>
+  <details><summary>What if I can't make the live calls?</summary><p>Every locker room is recorded and posted in our private community, usually within 24 hours. Live is better (that's where the magic is), but you won't fall behind.</p></details>
+  <details><summary>How much time does it take?</summary><p>About 2 hours a week. One hour live plus 10–15 minutes a day on your rep.</p></details>
+  <details><summary>Is this a course?</summary><p>No. There's no library of 40 videos you'll never watch. It's live training, one rep at a time, with real accountability.</p></details>
+  <details><summary>Do I have to own a business?</summary><p>Nope. MNTL is for founders, corporate folks, parents and anyone else who wants to be more mentally athletic.</p></details>
+  <details><summary>How is this different from BYLD?</summary><p>BYLD is my community for women actively building businesses. MNTL is focused training in Mental Athleticism™, open to anyone. Lots of people will do both. You don't have to.</p></details>
+  <details><summary>Is this therapy?</summary><p>No. MNTL is mental performance training, not therapy, counseling or medical care. If you need clinical support, please get it. You can absolutely do both.</p></details>
+  <details><summary>Is there a payment plan?</summary><p>Yes. Two payments: $259 each during Black Friday, $359 each after. The second payment runs 30 days after the first.</p></details>
+  <details><summary>What's the refund policy?</summary><p>Show up to the first two locker rooms (live or replay) and do the reps. If it's not for you, email me by Monday, January 25, 2027 for a full refund.</p></details>
+  <details><summary>What happens after I buy?</summary><p>You'll get a welcome email from me right away with your next steps. Your invite to our private community lands before kickoff.</p></details>
+  <details><summary>Questions?</summary><p>Email me at <a href="mailto:keri@thekericroftshow.com" style="color:var(--button)">keri@thekericroftshow.com</a>.</p></details>
+</div></section>
+
+<!-- ============================================================
+     CLOSING
+     ============================================================ -->
+<header class="hero end"><div class="wrap">
+  <h2 style="font-size:clamp(38px,6.5vw,84px);max-width:16ch;margin-bottom:24px">Will you remember the reasons you stayed? Or the <span class="hl">reps you took?</span></h2>
+  <a class="btn" data-link="primary" href="#offer">
+    <span class="m-waitlist">Get on the OG list</span>
+    <span class="m-bf">Claim my founding seat — $497</span>
+    <span class="m-regular">Claim my seat — $697</span>
+    <span class="m-closed">Join the next-cohort list</span>
+  </a>
+  <p class="script" style="font-size:40px;margin-top:30px;color:var(--highlight)">Keep moving, baby. — Keri</p>
+</div></header>
+
+<footer><div class="wrap">MNTL is a personal development and mental performance training program. It is not therapy, counseling, or medical treatment, and results vary by person and effort.<br><br>© 2026 Keri Croft · <a href="https://kericroft.com">kericroft.com</a> · <a href="mailto:keri@thekericroftshow.com">keri@thekericroftshow.com</a></div></footer>
+
+<div class="mbar"><a class="btn" data-link="primary" href="#offer">
+  <span class="m-waitlist">Get on the OG list</span>
+  <span class="m-bf">Claim my seat — $497</span>
+  <span class="m-regular">Claim my seat — $697</span>
+  <span class="m-closed">Next-cohort list</span>
+</a></div>
+
+<script>
+/* Applies the SETTINGS block. No need to edit. */
+(function(){
+  var m = (MNTL.mode || "waitlist").trim().toLowerCase();
+  if (["waitlist","bf","regular","closed"].indexOf(m) < 0) m = "waitlist";
+  document.body.setAttribute("data-mode", m);
+  var L = MNTL.links;
+  var primary = {waitlist:L.ogList, bf:L.stripe497, regular:L.stripe697, closed:L.nextCohort}[m];
+  var plan = {bf:L.stripe259x2, regular:L.stripe359x2}[m];
+  var ready = function(u){ return u && u.indexOf("PASTE-") < 0; };
+  document.querySelectorAll('[data-link="primary"]').forEach(function(a){ if (ready(primary)) a.href = primary; else a.href = "#offer"; });
+  document.querySelectorAll('[data-link="plan"]').forEach(function(a){ if (ready(plan)) a.href = plan; });
+})();
+</script>
+</body>
+</html>
